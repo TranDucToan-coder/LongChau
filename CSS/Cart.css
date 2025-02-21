@@ -1,0 +1,168 @@
+.empty_cart{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.empty_cart #image {
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.empty_cart #image img{
+    width: 600px;
+    filter:drop-shadow(0 0 0.95rem rgb(165, 156, 158))
+}
+.empty_cart .title{
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.empty_cart .title p:nth-child(1){
+    color: black;
+    font-size: 20px;
+}
+.empty_cart .title p:nth-child(2){
+    color: gray;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.empty_cart .btn_return{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.empty_cart .btn_return button{
+    width: 200px;
+    height: 50px;
+    margin-top: 2px;
+    border-radius: 25px;
+    background-color: rgba(18, 90, 206, 0.75);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-weight: bold;
+}
+/*NotEmpty*/
+.notEmptyWrapper{
+    display: flex;
+    width: 1200px;
+    height: auto;
+    min-height: 600px;
+    margin: 20px auto;
+}
+.notEmptyWrapper .left{
+    width: 800px;
+    height: auto;
+    min-height: 600px;
+    margin: 10px 0;
+    border-radius: 25px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
+}
+.notEmptyWrapper .left .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.notEmptyWrapper .left .imgProduct{
+    width: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.05);
+}
+.notEmptyWrapper .left img{
+    width: 20px;
+}
+.notEmptyWrapper .left p {
+    color: black;
+}
+.notEmptyWrapper .left p:nth-child(2){
+    width: 200px;
+}
+.notEmptyWrapper .left input{
+    width: 80px;
+}
+.notEmptyWrapper .left input::-webkit-inner-spin-button,
+.custom-number-input::-webkit-outer-spin-button {
+    margin: 0;
+}
+.notEmptyWrapper .left .btn_remove{
+    width: 80px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 10px;
+}
+.notEmptyWrapper .left .btn_remove:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.notEmptyWrapper .right{
+    width: 350px;
+    height: 300px;
+    min-height: 300px;
+    margin: 10px 10px;
+    border-radius: 25px;
+    box-shadow: 0 1px 0 2px rgba(0, 0, 0, 0.15);
+}
+.notEmptyWrapper .right .title hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.notEmptyWrapper .right .title p{
+    color: black;
+    line-height: 50px;
+    padding-left: 15px;
+}
+.notEmptyWrapper .right .title p:nth-child(5){
+    font-size: 20px;
+    font-weight: bold;
+}
+.notEmptyWrapper .right .bottom{
+    width: 300px;
+    margin: 0 auto;
+}
+.notEmptyWrapper .right .bottom button{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+
+    font-weight: bold;
+    background-color: rgb(27, 97, 227);
+    color: white;
+    cursor: pointer;
+}
+.notEmptyWrapper .right .bottom p{
+    text-align: center;
+    color: black;
+    width: 310px;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+.notEmptyWrapper .right .bottom a{
+    margin: 0px 3px;
+    color: black;
+}
+
+.PaymentDetail button{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+
+    font-weight: bold;
+    background-color: rgb(27, 97, 227);
+    color: white;
+    cursor: pointer;
+}

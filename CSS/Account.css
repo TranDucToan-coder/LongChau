@@ -1,0 +1,122 @@
+.Account-wrapper{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+.Account-wrapper .title{
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.Account-wrapper .title p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Account-wrapper .title button{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.668);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 2px 0  rgba(0,0,0, 0.25);
+    cursor: pointer;
+}
+/*content*/
+.Account-wrapper .AccountContent{
+    width: auto;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+}
+.Account-wrapper .AccountContent .left p{
+    color: black;
+}
+.Account-wrapper .AccountContent img{
+    width: 150px;
+    object-fit: contain;
+}
+.Account-wrapper .AccountContent .name{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.Account-wrapper .AccountContent .email{
+    font-size: 14px;
+    color: rgba(179, 167, 167, 0.2);
+}
+.Account-wrapper .AccountContent .folder{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 5px auto;
+    line-height: 40px;
+}
+.Account-wrapper .AccountContent .folder a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.Account-wrapper .AccountContent .folder a:hover{
+    color: red;
+}
+.Account-wrapper .AccountContent .right{
+    width: 1100px;
+    margin-left: 40px;
+}
+/*PersonalInfo*/
+.Personal p{
+    color: gray;
+    margin-top: 4px;
+}
+.Personal .opt{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.Personal .opt p{
+    color: black;
+}
+.Personal .opt img{
+    width: 30px;
+}
+.Personal .opt .NameInf, .PhoneInf, .EmailInf {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 0 2px rgba(0,0,0, 0.25);
+    position: relative;
+
+}
+.Personal .opt .title{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-between;
+}
+.Personal .opt .NameInf p,
+.Personal .opt .PhoneInf p,
+.Personal .opt .EmailInf p
+{
+    padding: 0 20px;
+    position: absolute;
+    top: 60px;
+    left: 6px;
+}
+.TableOfInfor{
+    height: 400px;
+}
+.TableOfInfor .process{
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+}

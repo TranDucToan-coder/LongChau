@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar{
+    width: 4px;height: 6px;
+    transition: all 0.2s ease-in;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+    border-radius: 2px;
+}
+/*Menu*/
+.wrapper{
+    width: auto;
+    height: 150px;
+    background-color: rgb(27, 97, 227);
+    max-height: 200px;
+    background-image: url(https://cms-prod.s3-sgn09.fptcloud.com/trungthu_11_09_2024_mobile_7_0069ec85f8.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.wrapper .first-line{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 0.5%;
+
+    max-height: 30px;
+    max-width: 1200px;
+}
+#title-1{
+    display: flex;
+    align-items: center;
+}
+p{
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 1rem;
+}
+.wrapper .first-line #link-detail{
+    margin-left: -30px;
+    color: white;
+    width: auto;
+}
+.wrapper .first-line #link-download{
+    color: white;
+    text-decoration: none;
+}
+.wrapper .first-line :nth-child(3){
+    width: auto;
+    margin-left: 300px;
+    margin-right: 30px;
+    padding-left: 8%;
+}
+.wrapper .second-line{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 25px;
+}
+.wrapper .second-line #Search-bar {
+    position: relative;
+}
+.wrapper #Search-bar input{
+    width: 580px;
+    height: 15px;
+    margin-left: 40px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: large;
+
+    max-width: 1000px;
+    min-height: 50px;
+}
+.wrapper #Search-bar #icon-glass{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+}
+.wrapper .second-line .Sign-Up{
+    width: 200px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .second-line .Sign-Up a{
+    margin-left: 5px;
+}
+.wrapper .second-line .btn_login{
+    border: none;
+    width: 140px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+    background-color: rgba(54, 151, 255, 0.759);
+}
+.wrapper #icon-user{
+    align-items: center;
+}
+.wrapper .second-line a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper .second-line .Cart button{
+    display: flex;
+    font-size: large;
+    color: white;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgb(30, 30, 207);
+    border: none;
+    cursor: pointer;
+}
+.wrapper .third-line{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 3px;
+    padding-left: 180px;
+    padding-bottom: 3px;
+}
+.wrapper .third-line .list-item{
+    margin-right: 30px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: white;
+}
+.up{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(182, 229, 229);
+    position: fixed;
+    left: calc(200vh - 50px);
+    top: 650px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease-in;
+}
+/*Sub_menu_navigate*/
+.sub_navigate_menu{
+    width: auto;
+    background-color: rgb(0, 0, 0);
+}
+.sub_navigate_menu .title{
+    color: rgb(253, 253, 253);
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+.sub_navigate_menu .option{
+    list-style: none;
+    width: 180px;
+    height: auto;
+    background-color: rgba(10, 10, 10, 0.522);
+    border-radius: 15px;
+    font-size: 14px;
+    display: none;
+    position: absolute;
+    line-height: 25px;
+    padding: 10px;
+    transition: all 1s ease-in;
+}
+.sub_navigate_menu:hover .option{
+    display: block;
+    max-height: 90px;
+    z-index: 100;
+}
+/*SearchBar*/
+.ResultOfSearch{
+    width: 600px;
+    height: auto;
+    min-height: 80px;
+    background-color: white;
+    position: absolute;
+    z-index: 1000;
+    left: 5%;
+    top: 120%;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+.ResultOfSearch .product_img{
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.ResultOfSearch .scaleImage:hover .product_img{
+    transform: scale(1.5);
+}

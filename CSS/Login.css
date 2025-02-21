@@ -1,0 +1,127 @@
+.wrapper-login, .wrapper-otp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.wrapper-login .login-content{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    position: relative;
+    z-index: 1000;
+    border-radius: 20px;
+    max-width: 60vw;
+    max-height: 60vh;
+
+}
+.wrapper-login .login-content .title{
+    margin-top: 40px;
+    text-align: center;
+}
+.wrapper-login .login-content .title p{
+    color: gray;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.wrapper-login .login-content .input{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+.wrapper-login .login-content .error-message{
+    width: auto;
+    margin: 10px auto;
+}
+.wrapper-login .login-content .input input{
+    width: 340px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 20px;
+    border: 1px solid royalblue;
+}
+.wrapper-login .login-content .input input:focus{
+    border: 2px solid royalblue;
+    outline: none;
+}
+.wrapper-login .login-content .Submit,
+.wrapper-otp .content-otp .Submit{
+    width: 320px;
+    margin: 5px auto;
+}
+.wrapper-login .login-content .Submit button,
+.wrapper-otp .content-otp .Submit button{
+    width:  inherit;
+    height: 45px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/*OTP*/
+.wrapper-otp .content-otp{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1001;
+    border-radius: 20px;
+    max-width: 60vw;
+    max-height: 60vh;
+}
+.content-otp p{
+    color: black;
+    margin-top: 10px;
+}
+
+.content-otp input{
+    width: 50px;
+    height: 60px;
+    padding: 10px 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.wrapper-otp .content-otp .title{
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.OTP-value{
+    width: 350px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper-otp .content-otp .Submit a{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.wrapper-otp .content-otp .exit_btn{
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    cursor: pointer;
+}

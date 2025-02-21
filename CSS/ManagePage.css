@@ -1,0 +1,237 @@
+.ManagePage{
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 10px auto;
+    position: relative;
+}
+.ManageProduct{
+    width: 1200px;
+    min-height: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.ManageOrder{
+    width: 2000px;
+    min-height: 1000px;
+    overflow:auto;
+    height: auto;
+    margin: 0 auto;
+}
+.ManageOrder .row{
+    display: flex;
+    justify-content: space-around;
+}
+.ManageOrder .table_Employee, .table_Employee_ChamCong {
+    padding: 20px;
+}
+.ManageOrder .table_Employee td {
+    padding: 20px;
+}
+.ManageOrder .table_Employee td:nth-child(1), tr:nth-child(1){
+    width: 50px;
+}
+.ManageOrder .table_Employee td:nth-child(2), tr:nth-child(2){
+    width: 80px;
+}
+.ManageOrder .table_Employee td:nth-child(3), tr:nth-child(3){
+    width: 150px;
+}
+.ManageOrder .table_Employee td:nth-child(4), tr:nth-child(4){
+    width: 100px;
+}
+.ManageOrder .table_Employee td:nth-child(6), tr:nth-child(6){
+    width: 170px;
+}
+.ManageOrder .table_Employee td:nth-child(9), tr:nth-child(9){
+    width: 170px;
+}
+.ManageOrder .subTable{
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.ManageOrder .subTable td{
+    padding: 20px;
+}
+.ManageProduct img{
+    width: 20px;
+}
+.ManageProduct button{
+    width: auto;
+    border-radius: 25%;
+    cursor: pointer;
+    border: none;
+}
+.table_Employee{
+    width: 70%;
+    table-layout: fixed;
+    border: 1px solid rgba(0,0,0, 0.25);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.table_Employee_ChamCong{
+    width: 80%;
+    table-layout: fixed;
+    border: 1px solid rgba(0,0,0, 0.25);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.TinhLuong{
+    width: 40%;
+    table-layout: fixed;
+    border: 1px solid rgba(0,0,0, 0.25);
+    border-radius: 10px;
+    margin: 0 auto; 
+}
+.table_Employee_ChamCong td:nth-child(1){
+    width: 50px;
+}
+.table_Employee_ChamCong td:nth-child(2){
+    width: 200px;
+}
+.ManageProduct .row{
+    display: flex;
+}
+.ManageProduct .subTableEmployee{
+    height: 200px;
+    table-layout: fixed;
+    border: 1px solid rgba(0,0,0, 0.25);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.ManageProduct .table_Employee .title{
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    font-weight: bold;
+}
+.ManageProduct .table_Employee .name{
+    width: 400px;
+}
+.ManageProduct .table_Employee td{
+    padding-left: 20px;
+    padding: 20px;
+}
+.table_Employee .position, .icon{
+    text-align: center;
+}
+.table_Employee #edit, #del, #detail{
+    text-align: center;
+}
+.NvgAdmin{
+    width: 300px;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.322);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease; 
+    overflow: hidden;
+}
+.NvgAdmin .minisizeSidebar{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.NvgAdmin button img{
+    width: 25px;
+}
+.NvgAdmin hr{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    top: 80px;
+
+}
+.NvgAdmin.expanded{
+    width: 50px;
+}
+.NvgAdmin .select{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.NvgAdmin .select img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.NvgAdmin .select div{  
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.NvgAdmin .select .link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.NvgAdmin .more_option::after{
+    content:">";
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.NvgAdmin .more_option{
+    display: flex;
+    align-items: center;
+}
+.NvgAdmin .more_section{
+    position: relative;
+}
+.NvgAdmin .sub_sidebar{
+    position: absolute;
+    top: 70%;
+    left: 70px;
+    width: 250px;
+    max-height: 150px;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+}
+.NvgAdmin .sub_sidebar li{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+.pagination{
+    display: flex;
+    list-style: none;
+}
+.pagination .page-item{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.FormBackUp{
+    width: 60%;
+    margin: 0 auto;
+    line-height: 80px;
+}
+.FormBackUp .btn_backUp{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+.FormBackUp .btn_backUp:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    outline-color: aqua;
+}
